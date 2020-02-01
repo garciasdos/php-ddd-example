@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\CoursesCounter;
+namespace Garciasdos\Tests\Mooc\CoursesCounter;
 
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounter;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterRepository;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounter;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterRepository;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
 use Mockery\MockInterface;
 
 abstract class CoursesCounterModuleUnitTestCase extends UnitTestCase

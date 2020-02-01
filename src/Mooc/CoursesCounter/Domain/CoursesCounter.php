@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Domain;
+namespace Garciasdos\Mooc\CoursesCounter\Domain;
 
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Shared\Domain\Aggregate\AggregateRoot;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Shared\Domain\Aggregate\AggregateRoot;
 use function Lambdish\Phunctional\search;
 
 final class CoursesCounter extends AggregateRoot

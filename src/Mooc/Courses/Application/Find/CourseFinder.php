@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Application\Find;
+namespace Garciasdos\Mooc\Courses\Application\Find;
 
-use CodelyTv\Mooc\Courses\Domain\Course;
-use CodelyTv\Mooc\Courses\Domain\CourseNotExist;
-use CodelyTv\Mooc\Courses\Domain\CourseRepository;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Mooc\Courses\Domain\Course;
+use Garciasdos\Mooc\Courses\Domain\CourseNotExist;
+use Garciasdos\Mooc\Courses\Domain\CourseRepository;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
 
 final class CourseFinder
 {

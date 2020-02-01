@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\CoursesCounter\Application\Find;
+namespace Garciasdos\Tests\Mooc\CoursesCounter\Application\Find;
 
-use CodelyTv\Mooc\CoursesCounter\Application\Find\CoursesCounterFinder;
-use CodelyTv\Mooc\CoursesCounter\Application\Find\FindCoursesCounterQuery;
-use CodelyTv\Mooc\CoursesCounter\Application\Find\FindCoursesCounterQueryHandler;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterNotExist;
-use CodelyTv\Tests\Mooc\CoursesCounter\CoursesCounterModuleUnitTestCase;
-use CodelyTv\Tests\Mooc\CoursesCounter\Domain\CoursesCounterMother;
+use Garciasdos\Mooc\CoursesCounter\Application\Find\CoursesCounterFinder;
+use Garciasdos\Mooc\CoursesCounter\Application\Find\FindCoursesCounterQuery;
+use Garciasdos\Mooc\CoursesCounter\Application\Find\FindCoursesCounterQueryHandler;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterNotExist;
+use Garciasdos\Tests\Mooc\CoursesCounter\CoursesCounterModuleUnitTestCase;
+use Garciasdos\Tests\Mooc\CoursesCounter\Domain\CoursesCounterMother;
 
 final class FindCoursesCounterQueryHandlerTest extends CoursesCounterModuleUnitTestCase
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Shared\Domain\Course;
+namespace Garciasdos\Mooc\Shared\Domain\Course;
 
-use CodelyTv\Shared\Domain\ValueObject\Uuid;
+use Garciasdos\Shared\Domain\ValueObject\Uuid;
 
 final class CourseId extends Uuid
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Bus\Event\MySql;
+namespace Garciasdos\Tests\Shared\Infrastructure\Bus\Event\MySql;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventMapping;
-use CodelyTv\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineDomainEventsConsumer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
-use CodelyTv\Tests\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
+use Garciasdos\Shared\Domain\Bus\Event\DomainEvent;
+use Garciasdos\Shared\Infrastructure\Bus\Event\DomainEventMapping;
+use Garciasdos\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineDomainEventsConsumer;
+use Garciasdos\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
+use Garciasdos\Tests\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
 use Doctrine\ORM\EntityManager;
 
 final class MySqlDoctrineEventBusTest extends InfrastructureTestCase

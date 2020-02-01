@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Command;
+namespace Garciasdos\Shared\Infrastructure\Bus\Command;
 
-use CodelyTv\Shared\Domain\Bus\Command\Command;
-use CodelyTv\Shared\Domain\Bus\Command\CommandBus;
-use CodelyTv\Shared\Infrastructure\Bus\CallableFirstParameterExtractor;
+use Garciasdos\Shared\Domain\Bus\Command\Command;
+use Garciasdos\Shared\Domain\Bus\Command\CommandBus;
+use Garciasdos\Shared\Infrastructure\Bus\CallableFirstParameterExtractor;
 use Symfony\Component\Messenger\Exception\HandlerFailedException;
 use Symfony\Component\Messenger\Exception\NoHandlerForMessageException;
 use Symfony\Component\Messenger\Handler\HandlersLocator;

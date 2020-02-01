@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Backoffice\Auth\Domain;
+namespace Garciasdos\Tests\Backoffice\Auth\Domain;
 
-use CodelyTv\Backoffice\Auth\Domain\AuthPassword;
-use CodelyTv\Tests\Shared\Domain\UuidMother;
+use Garciasdos\Backoffice\Auth\Domain\AuthPassword;
+use Garciasdos\Tests\Shared\Domain\UuidMother;
 
 final class AuthPasswordMother
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\CoursesCounter\Application\Find;
+namespace Garciasdos\Tests\Mooc\CoursesCounter\Application\Find;
 
-use CodelyTv\Mooc\CoursesCounter\Application\Find\CoursesCounterResponse;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterTotal;
-use CodelyTv\Tests\Mooc\CoursesCounter\Domain\CoursesCounterTotalMother;
+use Garciasdos\Mooc\CoursesCounter\Application\Find\CoursesCounterResponse;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterTotal;
+use Garciasdos\Tests\Mooc\CoursesCounter\Domain\CoursesCounterTotalMother;
 
 final class CoursesCounterResponseMother
 {

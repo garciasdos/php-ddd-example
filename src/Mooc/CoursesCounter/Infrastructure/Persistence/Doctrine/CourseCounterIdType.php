@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Infrastructure\Persistence\Doctrine;
+namespace Garciasdos\Mooc\CoursesCounter\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterId;
-use CodelyTv\Shared\Infrastructure\Persistence\Doctrine\UuidType;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterId;
+use Garciasdos\Shared\Infrastructure\Persistence\Doctrine\UuidType;
 
 final class CourseCounterIdType extends UuidType
 {

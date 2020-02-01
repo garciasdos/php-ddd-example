@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Shared\Infrastructure\Doctrine;
+namespace Garciasdos\Mooc\Shared\Infrastructure\Doctrine;
 
-use CodelyTv\Shared\Domain\Utils;
+use Garciasdos\Shared\Domain\Utils;
 use function Lambdish\Phunctional\filter;
 use function Lambdish\Phunctional\map;
 use function Lambdish\Phunctional\reduce;
@@ -75,7 +75,7 @@ final class DbalTypesSearcher
 
                     $classWithoutPrefix = str_replace(['.php', '/'], ['', '\\'], $splittedPath[1]);
 
-                    return "CodelyTv\\$contextName\\$classWithoutPrefix";
+                    return "Garciasdos\\$contextName\\$classWithoutPrefix";
                 },
                 $files
             );

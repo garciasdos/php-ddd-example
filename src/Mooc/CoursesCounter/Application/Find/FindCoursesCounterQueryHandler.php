@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Application\Find;
+namespace Garciasdos\Mooc\CoursesCounter\Application\Find;
 
-use CodelyTv\Shared\Domain\Bus\Query\QueryHandler;
+use Garciasdos\Shared\Domain\Bus\Query\QueryHandler;
 
 final class FindCoursesCounterQueryHandler implements QueryHandler
 {

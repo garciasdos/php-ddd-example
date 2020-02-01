@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses\Domain;
+namespace Garciasdos\Tests\Mooc\Courses\Domain;
 
-use CodelyTv\Mooc\Courses\Domain\Course;
-use CodelyTv\Mooc\Courses\Domain\CourseCreatedDomainEvent;
-use CodelyTv\Mooc\Courses\Domain\CourseDuration;
-use CodelyTv\Mooc\Courses\Domain\CourseName;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Mooc\Courses\Domain\Course;
+use Garciasdos\Mooc\Courses\Domain\CourseCreatedDomainEvent;
+use Garciasdos\Mooc\Courses\Domain\CourseDuration;
+use Garciasdos\Mooc\Courses\Domain\CourseName;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
 
 final class CourseCreatedDomainEventMother
 {

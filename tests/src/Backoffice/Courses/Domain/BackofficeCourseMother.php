@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Backoffice\Courses\Domain;
+namespace Garciasdos\Tests\Backoffice\Courses\Domain;
 
-use CodelyTv\Backoffice\Courses\Domain\BackofficeCourse;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseDurationMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseIdMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseNameMother;
+use Garciasdos\Backoffice\Courses\Domain\BackofficeCourse;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseDurationMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseIdMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseNameMother;
 
 final class BackofficeCourseMother
 {

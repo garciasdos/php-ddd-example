@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Doctrine;
+namespace Garciasdos\Shared\Infrastructure\Doctrine;
 
-use CodelyTv\Shared\Infrastructure\Doctrine\Dbal\DbalCustomTypesRegistrar;
+use Garciasdos\Shared\Infrastructure\Doctrine\Dbal\DbalCustomTypesRegistrar;
 use Doctrine\Common\Cache\ArrayCache;
 use Doctrine\DBAL\DriverManager;
 use Doctrine\DBAL\Schema\MySqlSchemaManager;
@@ -19,7 +19,7 @@ use function Lambdish\Phunctional\dissoc;
 final class DoctrineEntityManagerFactory
 {
     private static $sharedPrefixes = [
-        __DIR__ . '/../../../Shared/Infrastructure/Persistence/Mappings' => 'CodelyTv\Shared\Domain',
+        __DIR__ . '/../../../Shared/Infrastructure/Persistence/Mappings' => 'Garciasdos\Shared\Domain',
     ];
 
     public static function create(

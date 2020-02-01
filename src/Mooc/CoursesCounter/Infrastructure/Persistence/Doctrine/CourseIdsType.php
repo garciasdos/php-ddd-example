@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Infrastructure\Persistence\Doctrine;
+namespace Garciasdos\Mooc\CoursesCounter\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Shared\Infrastructure\Doctrine\Dbal\DoctrineCustomType;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Shared\Infrastructure\Doctrine\Dbal\DoctrineCustomType;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\JsonType;
 use function Lambdish\Phunctional\map;

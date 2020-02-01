@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Domain\Criteria;
+namespace Garciasdos\Shared\Domain\Criteria;
 
 final class Order
 {

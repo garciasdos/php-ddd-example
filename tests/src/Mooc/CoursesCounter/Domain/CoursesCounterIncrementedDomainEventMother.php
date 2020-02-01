@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\CoursesCounter\Domain;
+namespace Garciasdos\Tests\Mooc\CoursesCounter\Domain;
 
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounter;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterId;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEvent;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterTotal;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounter;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterId;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEvent;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterTotal;
 
 final class CoursesCounterIncrementedDomainEventMother
 {

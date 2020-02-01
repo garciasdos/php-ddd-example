@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace Garciasdos\Shared\Infrastructure\Bus\Event\RabbitMq;
 
 use AMQPChannel;
 use AMQPConnection;

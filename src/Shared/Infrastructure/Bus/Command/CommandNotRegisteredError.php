@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Bus\Command;
+namespace Garciasdos\Shared\Infrastructure\Bus\Command;
 
-use CodelyTv\Shared\Domain\Bus\Command\Command;
+use Garciasdos\Shared\Domain\Bus\Command\Command;
 use RuntimeException;
 
 final class CommandNotRegisteredError extends RuntimeException

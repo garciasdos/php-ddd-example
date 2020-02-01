@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Domain\ValueObject;
+namespace Garciasdos\Shared\Domain\ValueObject;
 
 abstract class StringValueObject
 {

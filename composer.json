@@ -1,13 +1,11 @@
 {
-  "name": "codelytv/ddd-skeleton",
+  "name": "garciasdos/ddd-skeleton",
   "license": "MIT",
   "type": "project",
   "description": "DDD php Skeleton - Monorepository",
   "require": {
-    "php": ">7.2",
+    "php": "7.4",
 
-    "ext-amqp": "*",
-    "ext-apcu": "*",
     "ext-json": "*",
     "ext-zend-opcache": "*",
     "ext-pdo": "*",
@@ -48,18 +46,18 @@
   },
   "autoload": {
     "psr-4": {
-      "CodelyTv\\Apps\\Mooc\\Backend\\": "apps/mooc/backend/src",
-      "CodelyTv\\Apps\\Mooc\\Frontend\\": "apps/mooc/frontend/src",
+      "Garciasdos\\Apps\\Mooc\\Backend\\": "apps/mooc/backend/src",
+      "Garciasdos\\Apps\\Mooc\\Frontend\\": "apps/mooc/frontend/src",
 
-      "CodelyTv\\Apps\\Backoffice\\Backend\\": "apps/backoffice/backend/src",
-      "CodelyTv\\Apps\\Backoffice\\Frontend\\": "apps/backoffice/frontend/src",
+      "Garciasdos\\Apps\\Backoffice\\Backend\\": "apps/backoffice/backend/src",
+      "Garciasdos\\Apps\\Backoffice\\Frontend\\": "apps/backoffice/frontend/src",
 
-      "CodelyTv\\": ["src"]
+      "Garciasdos\\": ["src"]
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CodelyTv\\Tests\\": ["tests/src"]
+      "Garciasdos\\Tests\\": ["tests/src"]
     }
   }
 }

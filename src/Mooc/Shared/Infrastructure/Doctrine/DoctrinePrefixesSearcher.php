@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Shared\Infrastructure\Doctrine;
+namespace Garciasdos\Mooc\Shared\Infrastructure\Doctrine;
 
 use function Lambdish\Phunctional\filter;
 use function Lambdish\Phunctional\map;

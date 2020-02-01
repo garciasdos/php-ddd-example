@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Domain\ValueObject;
+namespace Garciasdos\Shared\Domain\ValueObject;
 
-use CodelyTv\Shared\Domain\Utils;
+use Garciasdos\Shared\Domain\Utils;
 use ReflectionClass;
 use function Lambdish\Phunctional\reindex;
 

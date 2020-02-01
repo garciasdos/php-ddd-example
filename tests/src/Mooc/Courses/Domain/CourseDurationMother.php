@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses\Domain;
+namespace Garciasdos\Tests\Mooc\Courses\Domain;
 
-use CodelyTv\Mooc\Courses\Domain\CourseDuration;
-use CodelyTv\Tests\Shared\Domain\IntegerMother;
-use CodelyTv\Tests\Shared\Domain\RandomElementPicker;
+use Garciasdos\Mooc\Courses\Domain\CourseDuration;
+use Garciasdos\Tests\Shared\Domain\IntegerMother;
+use Garciasdos\Tests\Shared\Domain\RandomElementPicker;
 
 final class CourseDurationMother
 {

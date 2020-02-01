@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Mockery;
+namespace Garciasdos\Tests\Shared\Infrastructure\Mockery;
 
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Constraint\CodelyTvConstraintIsSimilar;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Constraint\CodelyTvConstraintIsSimilar;
 use Mockery\Matcher\MatcherAbstract;
 
 final class CodelyTvMatcherIsSimilar extends MatcherAbstract

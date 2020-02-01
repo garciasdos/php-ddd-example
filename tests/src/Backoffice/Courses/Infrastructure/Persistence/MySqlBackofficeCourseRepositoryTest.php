@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Backoffice\Courses\Infrastructure\Persistence;
+namespace Garciasdos\Tests\Backoffice\Courses\Infrastructure\Persistence;
 
-use CodelyTv\Tests\Backoffice\Courses\BackofficeCoursesModuleInfrastructureTestCase;
-use CodelyTv\Tests\Backoffice\Courses\Domain\BackofficeCourseCriteriaMother;
-use CodelyTv\Tests\Backoffice\Courses\Domain\BackofficeCourseMother;
-use CodelyTv\Tests\Shared\Domain\Criteria\CriteriaMother;
+use Garciasdos\Tests\Backoffice\Courses\BackofficeCoursesModuleInfrastructureTestCase;
+use Garciasdos\Tests\Backoffice\Courses\Domain\BackofficeCourseCriteriaMother;
+use Garciasdos\Tests\Backoffice\Courses\Domain\BackofficeCourseMother;
+use Garciasdos\Tests\Shared\Domain\Criteria\CriteriaMother;
 
 final class MySqlBackofficeCourseRepositoryTest extends BackofficeCoursesModuleInfrastructureTestCase
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Domain\Criteria;
+namespace Garciasdos\Tests\Shared\Domain\Criteria;
 
-use CodelyTv\Shared\Domain\Criteria\Criteria;
-use CodelyTv\Shared\Domain\Criteria\Filters;
-use CodelyTv\Shared\Domain\Criteria\Order;
-use CodelyTv\Tests\Shared\Domain\IntegerMother;
+use Garciasdos\Shared\Domain\Criteria\Criteria;
+use Garciasdos\Shared\Domain\Criteria\Filters;
+use Garciasdos\Shared\Domain\Criteria\Order;
+use Garciasdos\Tests\Shared\Domain\IntegerMother;
 
 final class CriteriaMother
 {

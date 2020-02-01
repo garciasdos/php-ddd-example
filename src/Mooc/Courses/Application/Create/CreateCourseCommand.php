@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Application\Create;
+namespace Garciasdos\Mooc\Courses\Application\Create;
 
-use CodelyTv\Shared\Domain\Bus\Command\Command;
+use Garciasdos\Shared\Domain\Bus\Command\Command;
 
 final class CreateCourseCommand implements Command
 {

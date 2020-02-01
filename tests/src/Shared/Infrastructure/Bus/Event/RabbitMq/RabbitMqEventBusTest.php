@@ -2,19 +2,19 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Bus\Event\RabbitMq;
+namespace Garciasdos\Tests\Shared\Infrastructure\Bus\Event\RabbitMq;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConfigurer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConnection;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqDomainEventsConsumer;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqEventBus;
-use CodelyTv\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqQueueNameFormatter;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
-use CodelyTv\Tests\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
+use Garciasdos\Shared\Domain\Bus\Event\DomainEvent;
+use Garciasdos\Shared\Infrastructure\Bus\Event\DomainEventJsonDeserializer;
+use Garciasdos\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineEventBus;
+use Garciasdos\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConfigurer;
+use Garciasdos\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqConnection;
+use Garciasdos\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqDomainEventsConsumer;
+use Garciasdos\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqEventBus;
+use Garciasdos\Shared\Infrastructure\Bus\Event\RabbitMq\RabbitMqQueueNameFormatter;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
+use Garciasdos\Tests\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
 use RuntimeException;
 use Throwable;
 

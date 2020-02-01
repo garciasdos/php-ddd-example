@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Domain;
+namespace Garciasdos\Tests\Shared\Domain;
 
-use CodelyTv\Tests\Shared\Infrastructure\Mockery\CodelyTvMatcherIsSimilar;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Constraint\CodelyTvConstraintIsSimilar;
+use Garciasdos\Tests\Shared\Infrastructure\Mockery\CodelyTvMatcherIsSimilar;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Constraint\CodelyTvConstraintIsSimilar;
 
 final class TestUtils
 {

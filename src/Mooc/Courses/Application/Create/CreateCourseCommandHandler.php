@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Application\Create;
+namespace Garciasdos\Mooc\Courses\Application\Create;
 
-use CodelyTv\Mooc\Courses\Domain\CourseDuration;
-use CodelyTv\Mooc\Courses\Domain\CourseName;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Shared\Domain\Bus\Command\CommandHandler;
+use Garciasdos\Mooc\Courses\Domain\CourseDuration;
+use Garciasdos\Mooc\Courses\Domain\CourseName;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Shared\Domain\Bus\Command\CommandHandler;
 
 final class CreateCourseCommandHandler implements CommandHandler
 {

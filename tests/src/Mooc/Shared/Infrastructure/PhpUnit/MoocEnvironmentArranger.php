@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Shared\Infrastructure\PhpUnit;
+namespace Garciasdos\Tests\Mooc\Shared\Infrastructure\PhpUnit;
 
-use CodelyTv\Tests\Shared\Infrastructure\Arranger\EnvironmentArranger;
-use CodelyTv\Tests\Shared\Infrastructure\Doctrine\DatabaseCleaner;
+use Garciasdos\Tests\Shared\Infrastructure\Arranger\EnvironmentArranger;
+use Garciasdos\Tests\Shared\Infrastructure\Doctrine\DatabaseCleaner;
 use Doctrine\ORM\EntityManager;
 use function Lambdish\Phunctional\apply;
 

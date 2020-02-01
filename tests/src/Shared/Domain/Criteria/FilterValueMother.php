@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Domain\Criteria;
+namespace Garciasdos\Tests\Shared\Domain\Criteria;
 
-use CodelyTv\Shared\Domain\Criteria\FilterValue;
-use CodelyTv\Tests\Shared\Domain\WordMother;
+use Garciasdos\Shared\Domain\Criteria\FilterValue;
+use Garciasdos\Tests\Shared\Domain\WordMother;
 
 final class FilterValueMother
 {

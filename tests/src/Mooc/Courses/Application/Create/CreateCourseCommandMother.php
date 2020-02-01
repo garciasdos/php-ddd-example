@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses\Application\Create;
+namespace Garciasdos\Tests\Mooc\Courses\Application\Create;
 
-use CodelyTv\Mooc\Courses\Application\Create\CreateCourseCommand;
-use CodelyTv\Mooc\Courses\Domain\CourseDuration;
-use CodelyTv\Mooc\Courses\Domain\CourseName;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseDurationMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseIdMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseNameMother;
+use Garciasdos\Mooc\Courses\Application\Create\CreateCourseCommand;
+use Garciasdos\Mooc\Courses\Domain\CourseDuration;
+use Garciasdos\Mooc\Courses\Domain\CourseName;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseDurationMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseIdMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseNameMother;
 
 final class CreateCourseCommandMother
 {

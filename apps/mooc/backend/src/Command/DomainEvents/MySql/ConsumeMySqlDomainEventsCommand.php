@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Apps\Mooc\Backend\Command\DomainEvents\MySql;
+namespace Garciasdos\Apps\Mooc\Backend\Command\DomainEvents\MySql;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Shared\Infrastructure\Bus\Event\DomainEventSubscriberLocator;
-use CodelyTv\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineDomainEventsConsumer;
-use CodelyTv\Shared\Infrastructure\Doctrine\DatabaseConnections;
+use Garciasdos\Shared\Domain\Bus\Event\DomainEvent;
+use Garciasdos\Shared\Infrastructure\Bus\Event\DomainEventSubscriberLocator;
+use Garciasdos\Shared\Infrastructure\Bus\Event\MySql\MySqlDoctrineDomainEventsConsumer;
+use Garciasdos\Shared\Infrastructure\Doctrine\DatabaseConnections;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

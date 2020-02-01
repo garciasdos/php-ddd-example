@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Bus\Query;
+namespace Garciasdos\Tests\Shared\Infrastructure\Bus\Query;
 
-use CodelyTv\Shared\Domain\Bus\Query\Query;
-use CodelyTv\Shared\Infrastructure\Bus\Query\InMemorySymfonyQueryBus;
-use CodelyTv\Shared\Infrastructure\Bus\Query\QueryNotRegisteredError;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
+use Garciasdos\Shared\Domain\Bus\Query\Query;
+use Garciasdos\Shared\Infrastructure\Bus\Query\InMemorySymfonyQueryBus;
+use Garciasdos\Shared\Infrastructure\Bus\Query\QueryNotRegisteredError;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
 use RuntimeException;
 
 final class InMemorySymfonyQueryBusTest extends UnitTestCase

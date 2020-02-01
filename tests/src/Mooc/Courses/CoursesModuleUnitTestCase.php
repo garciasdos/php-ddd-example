@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses;
+namespace Garciasdos\Tests\Mooc\Courses;
 
-use CodelyTv\Mooc\Courses\Domain\Course;
-use CodelyTv\Mooc\Courses\Domain\CourseRepository;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
+use Garciasdos\Mooc\Courses\Domain\Course;
+use Garciasdos\Mooc\Courses\Domain\CourseRepository;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\UnitTestCase;
 use Mockery\MockInterface;
 
 abstract class CoursesModuleUnitTestCase extends UnitTestCase

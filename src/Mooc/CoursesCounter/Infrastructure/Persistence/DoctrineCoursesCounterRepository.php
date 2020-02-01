@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Infrastructure\Persistence;
+namespace Garciasdos\Mooc\CoursesCounter\Infrastructure\Persistence;
 
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounter;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterRepository;
-use CodelyTv\Shared\Infrastructure\Persistence\Doctrine\DoctrineRepository;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounter;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterRepository;
+use Garciasdos\Shared\Infrastructure\Persistence\Doctrine\DoctrineRepository;
 
 final class DoctrineCoursesCounterRepository extends DoctrineRepository implements CoursesCounterRepository
 {

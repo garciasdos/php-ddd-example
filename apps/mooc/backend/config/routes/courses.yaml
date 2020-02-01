@@ -1,4 +1,4 @@
 courses_put:
     path: /courses/{id}
-    controller: CodelyTv\Apps\Mooc\Backend\Controller\Courses\CoursesPutController
+    controller: Garciasdos\Apps\Mooc\Backend\Controller\Courses\CoursesPutController
     methods:  [PUT]

@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Application\Find;
+namespace Garciasdos\Mooc\CoursesCounter\Application\Find;
 
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterNotExist;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterRepository;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterNotExist;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterRepository;
 
 final class CoursesCounterFinder
 {

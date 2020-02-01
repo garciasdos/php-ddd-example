@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\CoursesCounter\Domain;
+namespace Garciasdos\Tests\Mooc\CoursesCounter\Domain;
 
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounter;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterId;
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterTotal;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseIdMother;
-use CodelyTv\Tests\Shared\Domain\Repeater;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounter;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterId;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterTotal;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseIdMother;
+use Garciasdos\Tests\Shared\Domain\Repeater;
 
 final class CoursesCounterMother
 {

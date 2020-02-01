@@ -1,30 +1,19 @@
 version: '3'
 
 services:
-  mysql:
-    container_name: codelytv-php_ddd_skeleton-mooc-mysql
-    image: mysql:8
-    ports:
-      - "3360:3306"
+  postgres:
+    container_name: garciasdos_postgres
+    image: postgres:12-alpine
     environment:
-      - MYSQL_ROOT_PASSWORD=
-      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-    command: ["--default-authentication-plugin=mysql_native_password"]
-
-  rabbitmq:
-    container_name: codelytv-php_ddd_skeleton-rabbitmq
-    image: 'rabbitmq:3.7-management'
-    restart: unless-stopped
+      - POSTGRES_DB=manhattan
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
     ports:
-      - 5630:5672
-      - 8090:15672
-    environment:
-      - RABBITMQ_DEFAULT_USER=codelytv
-      - RABBITMQ_DEFAULT_PASS=c0d3ly
+      - 54355:5432
 
   nginx:
-    container_name: codelytv-ddd-skeleton-nginx
-    image: nginx:1.15-alpine
+    container_name: garciasdos_nginx
+    image: nginx:1.17-alpine
     restart: unless-stopped
     ports:
       - "8030:80"
@@ -35,7 +24,7 @@ services:
       - php
 
   php:
-    container_name: codelytv-php_ddd_skeleton-php
+    container_name: garciasdos_php
     build:
       context: .
       dockerfile: Dockerfile
@@ -47,5 +36,4 @@ services:
     env_file:
       - .env
     depends_on:
-      - mysql
-      - rabbitmq
+      - postgres

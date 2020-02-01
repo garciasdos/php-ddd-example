@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Persistence\Doctrine;
+namespace Garciasdos\Shared\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Shared\Domain\Criteria\Criteria;
-use CodelyTv\Shared\Domain\Criteria\Filter;
-use CodelyTv\Shared\Domain\Criteria\FilterField;
-use CodelyTv\Shared\Domain\Criteria\OrderBy;
+use Garciasdos\Shared\Domain\Criteria\Criteria;
+use Garciasdos\Shared\Domain\Criteria\Filter;
+use Garciasdos\Shared\Domain\Criteria\FilterField;
+use Garciasdos\Shared\Domain\Criteria\OrderBy;
 use Doctrine\Common\Collections\Criteria as DoctrineCriteria;
 use Doctrine\Common\Collections\Expr\Comparison;
 use Doctrine\Common\Collections\Expr\CompositeExpression;

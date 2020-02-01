@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Doctrine\Dbal;
+namespace Garciasdos\Shared\Infrastructure\Doctrine\Dbal;
 
 use Doctrine\DBAL\Types\Type;
 use function Lambdish\Phunctional\each;

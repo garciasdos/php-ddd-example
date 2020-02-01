@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Domain;
+namespace Garciasdos\Mooc\CoursesCounter\Domain;
 
 interface CoursesCounterRepository
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Backoffice\Auth\Domain;
+namespace Garciasdos\Tests\Backoffice\Auth\Domain;
 
-use CodelyTv\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommand;
-use CodelyTv\Backoffice\Auth\Domain\AuthPassword;
-use CodelyTv\Backoffice\Auth\Domain\AuthUser;
-use CodelyTv\Backoffice\Auth\Domain\AuthUsername;
+use Garciasdos\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommand;
+use Garciasdos\Backoffice\Auth\Domain\AuthPassword;
+use Garciasdos\Backoffice\Auth\Domain\AuthUser;
+use Garciasdos\Backoffice\Auth\Domain\AuthUsername;
 
 final class AuthUserMother
 {

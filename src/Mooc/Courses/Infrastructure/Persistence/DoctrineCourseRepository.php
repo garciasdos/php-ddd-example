@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Infrastructure\Persistence;
+namespace Garciasdos\Mooc\Courses\Infrastructure\Persistence;
 
-use CodelyTv\Mooc\Courses\Domain\Course;
-use CodelyTv\Mooc\Courses\Domain\CourseRepository;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Shared\Infrastructure\Persistence\Doctrine\DoctrineRepository;
+use Garciasdos\Mooc\Courses\Domain\Course;
+use Garciasdos\Mooc\Courses\Domain\CourseRepository;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Shared\Infrastructure\Persistence\Doctrine\DoctrineRepository;
 
 final class DoctrineCourseRepository extends DoctrineRepository implements CourseRepository
 {

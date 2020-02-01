@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Backoffice\Auth\Domain;
+namespace Garciasdos\Tests\Backoffice\Auth\Domain;
 
-use CodelyTv\Backoffice\Auth\Domain\AuthUsername;
-use CodelyTv\Tests\Shared\Domain\WordMother;
+use Garciasdos\Backoffice\Auth\Domain\AuthUsername;
+use Garciasdos\Tests\Shared\Domain\WordMother;
 
 final class AuthUsernameMother
 {

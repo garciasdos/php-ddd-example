@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses\Application\Create;
+namespace Garciasdos\Tests\Mooc\Courses\Application\Create;
 
-use CodelyTv\Mooc\Courses\Application\Create\CourseCreator;
-use CodelyTv\Mooc\Courses\Application\Create\CreateCourseCommandHandler;
-use CodelyTv\Tests\Mooc\Courses\CoursesModuleUnitTestCase;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseMother;
+use Garciasdos\Mooc\Courses\Application\Create\CourseCreator;
+use Garciasdos\Mooc\Courses\Application\Create\CreateCourseCommandHandler;
+use Garciasdos\Tests\Mooc\Courses\CoursesModuleUnitTestCase;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseMother;
 
 final class CreateCourseCommandHandlerTest extends CoursesModuleUnitTestCase
 {

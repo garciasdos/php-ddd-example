@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Backoffice\Courses;
+namespace Garciasdos\Tests\Backoffice\Courses;
 
-use CodelyTv\Backoffice\Courses\Infrastructure\Persistence\MySqlBackofficeCourseRepository;
-use CodelyTv\Tests\Mooc\Shared\Infrastructure\PhpUnit\MoocContextInfrastructureTestCase;
+use Garciasdos\Backoffice\Courses\Infrastructure\Persistence\MySqlBackofficeCourseRepository;
+use Garciasdos\Tests\Mooc\Shared\Infrastructure\PhpUnit\MoocContextInfrastructureTestCase;
 use Doctrine\ORM\EntityManager;
 
 abstract class BackofficeCoursesModuleInfrastructureTestCase extends MoocContextInfrastructureTestCase

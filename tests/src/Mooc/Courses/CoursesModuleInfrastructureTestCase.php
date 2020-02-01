@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses;
+namespace Garciasdos\Tests\Mooc\Courses;
 
-use CodelyTv\Mooc\Courses\Domain\CourseRepository;
-use CodelyTv\Tests\Mooc\Shared\Infrastructure\PhpUnit\MoocContextInfrastructureTestCase;
+use Garciasdos\Mooc\Courses\Domain\CourseRepository;
+use Garciasdos\Tests\Mooc\Shared\Infrastructure\PhpUnit\MoocContextInfrastructureTestCase;
 
 abstract class CoursesModuleInfrastructureTestCase extends MoocContextInfrastructureTestCase
 {

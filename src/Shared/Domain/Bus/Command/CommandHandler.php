@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Domain\Bus\Command;
+namespace Garciasdos\Shared\Domain\Bus\Command;
 
 interface CommandHandler
 {

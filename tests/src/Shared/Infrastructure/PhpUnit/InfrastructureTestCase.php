@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\PhpUnit;
+namespace Garciasdos\Tests\Shared\Infrastructure\PhpUnit;
 
-use CodelyTv\Tests\Mooc\Shared\Infrastructure\PhpUnit\MoocEnvironmentArranger;
-use CodelyTv\Tests\Shared\Domain\TestUtils;
+use Garciasdos\Tests\Mooc\Shared\Infrastructure\PhpUnit\MoocEnvironmentArranger;
+use Garciasdos\Tests\Shared\Domain\TestUtils;
 use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 

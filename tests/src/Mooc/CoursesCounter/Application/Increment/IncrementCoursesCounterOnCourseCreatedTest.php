@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\CoursesCounter\Application\Increment;
+namespace Garciasdos\Tests\Mooc\CoursesCounter\Application\Increment;
 
-use CodelyTv\Mooc\CoursesCounter\Application\Increment\CoursesCounterIncrementer;
-use CodelyTv\Mooc\CoursesCounter\Application\Increment\IncrementCoursesCounterOnCourseCreated;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseIdMother;
-use CodelyTv\Tests\Mooc\CoursesCounter\CoursesCounterModuleUnitTestCase;
-use CodelyTv\Tests\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
-use CodelyTv\Tests\Mooc\CoursesCounter\Domain\CoursesCounterMother;
+use Garciasdos\Mooc\CoursesCounter\Application\Increment\CoursesCounterIncrementer;
+use Garciasdos\Mooc\CoursesCounter\Application\Increment\IncrementCoursesCounterOnCourseCreated;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseCreatedDomainEventMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseIdMother;
+use Garciasdos\Tests\Mooc\CoursesCounter\CoursesCounterModuleUnitTestCase;
+use Garciasdos\Tests\Mooc\CoursesCounter\Domain\CoursesCounterIncrementedDomainEventMother;
+use Garciasdos\Tests\Mooc\CoursesCounter\Domain\CoursesCounterMother;
 
 final class IncrementCoursesCounterOnCourseCreatedTest extends CoursesCounterModuleUnitTestCase
 {

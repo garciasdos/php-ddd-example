@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Domain\Bus\Event;
+namespace Garciasdos\Shared\Domain\Bus\Event;
 
 interface EventBus
 {

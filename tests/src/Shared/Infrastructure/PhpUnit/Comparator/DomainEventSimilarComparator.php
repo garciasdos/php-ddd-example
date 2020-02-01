@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator;
+namespace Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Comparator;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
-use CodelyTv\Tests\Shared\Domain\TestUtils;
+use Garciasdos\Shared\Domain\Bus\Event\DomainEvent;
+use Garciasdos\Tests\Shared\Domain\TestUtils;
 use ReflectionObject;
 use SebastianBergmann\Comparator\Comparator;
 use SebastianBergmann\Comparator\ComparisonFailure;

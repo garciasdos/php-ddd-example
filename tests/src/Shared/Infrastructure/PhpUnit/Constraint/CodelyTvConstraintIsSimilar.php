@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Constraint;
+namespace Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Constraint;
 
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator\AggregateRootArraySimilarComparator;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator\AggregateRootSimilarComparator;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator\DateTimeSimilarComparator;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator\DateTimeStringSimilarComparator;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator\DomainEventArraySimilarComparator;
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\Comparator\DomainEventSimilarComparator;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Comparator\AggregateRootArraySimilarComparator;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Comparator\AggregateRootSimilarComparator;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Comparator\DateTimeSimilarComparator;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Comparator\DateTimeStringSimilarComparator;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Comparator\DomainEventArraySimilarComparator;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\Comparator\DomainEventSimilarComparator;
 use PHPUnit\Framework\Constraint\Constraint;
 use PHPUnit\Framework\ExpectationFailedException;
 use SebastianBergmann\Comparator\ComparisonFailure;

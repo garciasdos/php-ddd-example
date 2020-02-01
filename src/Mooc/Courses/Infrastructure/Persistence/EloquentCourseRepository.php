@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Infrastructure\Persistence;
+namespace Garciasdos\Mooc\Courses\Infrastructure\Persistence;
 
-use CodelyTv\Mooc\Courses\Domain\Course;
-use CodelyTv\Mooc\Courses\Domain\CourseDuration;
-use CodelyTv\Mooc\Courses\Domain\CourseName;
-use CodelyTv\Mooc\Courses\Domain\CourseRepository;
-use CodelyTv\Mooc\Courses\Infrastructure\Persistence\Eloquent\CourseEloquentModel;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Mooc\Courses\Domain\Course;
+use Garciasdos\Mooc\Courses\Domain\CourseDuration;
+use Garciasdos\Mooc\Courses\Domain\CourseName;
+use Garciasdos\Mooc\Courses\Domain\CourseRepository;
+use Garciasdos\Mooc\Courses\Infrastructure\Persistence\Eloquent\CourseEloquentModel;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
 
 final class EloquentCourseRepository implements CourseRepository
 {

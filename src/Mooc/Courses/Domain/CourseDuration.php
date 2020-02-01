@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Domain;
+namespace Garciasdos\Mooc\Courses\Domain;
 
-use CodelyTv\Shared\Domain\ValueObject\StringValueObject;
+use Garciasdos\Shared\Domain\ValueObject\StringValueObject;
 
 final class CourseDuration extends StringValueObject
 {

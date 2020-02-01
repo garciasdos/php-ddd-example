@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Backoffice\Auth\Application\Authenticate;
+namespace Garciasdos\Tests\Backoffice\Auth\Application\Authenticate;
 
-use CodelyTv\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommandHandler;
-use CodelyTv\Backoffice\Auth\Application\Authenticate\UserAuthenticator;
-use CodelyTv\Backoffice\Auth\Domain\InvalidAuthCredentials;
-use CodelyTv\Backoffice\Auth\Domain\InvalidAuthUsername;
-use CodelyTv\Tests\Backoffice\Auth\AuthModuleUnitTestCase;
-use CodelyTv\Tests\Backoffice\Auth\Domain\AuthUserMother;
-use CodelyTv\Tests\Backoffice\Auth\Domain\AuthUsernameMother;
+use Garciasdos\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommandHandler;
+use Garciasdos\Backoffice\Auth\Application\Authenticate\UserAuthenticator;
+use Garciasdos\Backoffice\Auth\Domain\InvalidAuthCredentials;
+use Garciasdos\Backoffice\Auth\Domain\InvalidAuthUsername;
+use Garciasdos\Tests\Backoffice\Auth\AuthModuleUnitTestCase;
+use Garciasdos\Tests\Backoffice\Auth\Domain\AuthUserMother;
+use Garciasdos\Tests\Backoffice\Auth\Domain\AuthUsernameMother;
 
 final class AuthenticateUserCommandHandlerTest extends AuthModuleUnitTestCase
 {

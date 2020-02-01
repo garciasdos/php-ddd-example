@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Infrastructure\Persistence\Doctrine;
+namespace Garciasdos\Mooc\Courses\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Shared\Infrastructure\Persistence\Doctrine\UuidType;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Shared\Infrastructure\Persistence\Doctrine\UuidType;
 
 final class CourseIdType extends UuidType
 {

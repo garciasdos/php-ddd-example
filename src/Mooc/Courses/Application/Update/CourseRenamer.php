@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Courses\Application\Update;
+namespace Garciasdos\Mooc\Courses\Application\Update;
 
-use CodelyTv\Mooc\Courses\Application\Find\CourseFinder;
-use CodelyTv\Mooc\Courses\Domain\CourseName;
-use CodelyTv\Mooc\Courses\Domain\CourseRepository;
-use CodelyTv\Mooc\Shared\Domain\Course\CourseId;
-use CodelyTv\Shared\Domain\Bus\Event\EventBus;
+use Garciasdos\Mooc\Courses\Application\Find\CourseFinder;
+use Garciasdos\Mooc\Courses\Domain\CourseName;
+use Garciasdos\Mooc\Courses\Domain\CourseRepository;
+use Garciasdos\Mooc\Shared\Domain\Course\CourseId;
+use Garciasdos\Shared\Domain\Bus\Event\EventBus;
 
 final class CourseRenamer
 {

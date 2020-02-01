@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses\Application\Update;
+namespace Garciasdos\Tests\Mooc\Courses\Application\Update;
 
-use CodelyTv\Mooc\Courses\Application\Update\CourseRenamer;
-use CodelyTv\Mooc\Courses\Domain\CourseNotExist;
-use CodelyTv\Tests\Mooc\Courses\CoursesModuleUnitTestCase;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseIdMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseNameMother;
-use CodelyTv\Tests\Shared\Domain\DuplicatorMother;
+use Garciasdos\Mooc\Courses\Application\Update\CourseRenamer;
+use Garciasdos\Mooc\Courses\Domain\CourseNotExist;
+use Garciasdos\Tests\Mooc\Courses\CoursesModuleUnitTestCase;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseIdMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseNameMother;
+use Garciasdos\Tests\Shared\Domain\DuplicatorMother;
 
 final class CourseRenamerTest extends CoursesModuleUnitTestCase
 {

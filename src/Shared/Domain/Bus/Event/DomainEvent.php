@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Domain\Bus\Event;
+namespace Garciasdos\Shared\Domain\Bus\Event;
 
-use CodelyTv\Shared\Domain\Utils;
-use CodelyTv\Shared\Domain\ValueObject\Uuid;
+use Garciasdos\Shared\Domain\Utils;
+use Garciasdos\Shared\Domain\ValueObject\Uuid;
 use DateTimeImmutable;
 
 abstract class DomainEvent

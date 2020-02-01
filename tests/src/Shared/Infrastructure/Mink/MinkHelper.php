@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Shared\Infrastructure\Mink;
+namespace Garciasdos\Tests\Shared\Infrastructure\Mink;
 
 use Behat\Mink\Driver\DriverInterface;
 use Behat\Mink\Session;

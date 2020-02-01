@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Persistence\Doctrine;
+namespace Garciasdos\Shared\Infrastructure\Persistence\Doctrine;
 
-use CodelyTv\Shared\Domain\ValueObject\Uuid;
-use CodelyTv\Shared\Infrastructure\Doctrine\Dbal\DoctrineCustomType;
+use Garciasdos\Shared\Domain\ValueObject\Uuid;
+use Garciasdos\Shared\Infrastructure\Doctrine\Dbal\DoctrineCustomType;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\StringType;
 

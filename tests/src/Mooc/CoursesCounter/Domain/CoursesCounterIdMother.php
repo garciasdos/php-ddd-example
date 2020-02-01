@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\CoursesCounter\Domain;
+namespace Garciasdos\Tests\Mooc\CoursesCounter\Domain;
 
-use CodelyTv\Mooc\CoursesCounter\Domain\CoursesCounterId;
-use CodelyTv\Tests\Shared\Domain\UuidMother;
+use Garciasdos\Mooc\CoursesCounter\Domain\CoursesCounterId;
+use Garciasdos\Tests\Shared\Domain\UuidMother;
 
 final class CoursesCounterIdMother
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Persistence\Elasticsearch;
+namespace Garciasdos\Shared\Infrastructure\Persistence\Elasticsearch;
 
-use CodelyTv\Shared\Domain\Criteria\Filter;
-use CodelyTv\Shared\Domain\Criteria\FilterOperator;
+use Garciasdos\Shared\Domain\Criteria\Filter;
+use Garciasdos\Shared\Domain\Criteria\FilterOperator;
 use function Lambdish\Phunctional\get;
 
 final class ElasticQueryGenerator

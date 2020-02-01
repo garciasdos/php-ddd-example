@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace Garciasdos\Shared\Infrastructure\Symfony;
 
-use CodelyTv\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommand;
-use CodelyTv\Backoffice\Auth\Domain\InvalidAuthCredentials;
-use CodelyTv\Backoffice\Auth\Domain\InvalidAuthUsername;
-use CodelyTv\Shared\Domain\Bus\Command\CommandBus;
+use Garciasdos\Backoffice\Auth\Application\Authenticate\AuthenticateUserCommand;
+use Garciasdos\Backoffice\Auth\Domain\InvalidAuthCredentials;
+use Garciasdos\Backoffice\Auth\Domain\InvalidAuthUsername;
+use Garciasdos\Shared\Domain\Bus\Command\CommandBus;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Event\RequestEvent;

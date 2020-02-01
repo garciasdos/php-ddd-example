@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Apps\Mooc\Backend\Controller\CoursesCounter;
+namespace Garciasdos\Apps\Mooc\Backend\Controller\CoursesCounter;
 
-use CodelyTv\Mooc\CoursesCounter\Application\Find\CoursesCounterFinder;
-use CodelyTv\Mooc\CoursesCounter\Application\Find\CoursesCounterResponse;
-use CodelyTv\Mooc\CoursesCounter\Application\Find\FindCoursesCounterQuery;
-use CodelyTv\Shared\Domain\Bus\Query\QueryBus;
+use Garciasdos\Mooc\CoursesCounter\Application\Find\CoursesCounterFinder;
+use Garciasdos\Mooc\CoursesCounter\Application\Find\CoursesCounterResponse;
+use Garciasdos\Mooc\CoursesCounter\Application\Find\FindCoursesCounterQuery;
+use Garciasdos\Shared\Domain\Bus\Query\QueryBus;
 use Symfony\Component\HttpFoundation\JsonResponse;
 
 final class CoursesCounterGetController

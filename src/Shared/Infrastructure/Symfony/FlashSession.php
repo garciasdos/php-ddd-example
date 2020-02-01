@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace Garciasdos\Shared\Infrastructure\Symfony;
 
-use CodelyTv\Shared\Domain\Utils;
+use Garciasdos\Shared\Domain\Utils;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
 final class FlashSession

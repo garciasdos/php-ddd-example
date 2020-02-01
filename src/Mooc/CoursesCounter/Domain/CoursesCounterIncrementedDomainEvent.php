@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\CoursesCounter\Domain;
+namespace Garciasdos\Mooc\CoursesCounter\Domain;
 
-use CodelyTv\Shared\Domain\Bus\Event\DomainEvent;
+use Garciasdos\Shared\Domain\Bus\Event\DomainEvent;
 
 final class CoursesCounterIncrementedDomainEvent extends DomainEvent
 {

@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace Garciasdos\Shared\Infrastructure\Symfony;
 
-use CodelyTv\Shared\Domain\Bus\Command\Command;
-use CodelyTv\Shared\Domain\Bus\Command\CommandBus;
-use CodelyTv\Shared\Domain\Bus\Query\Query;
-use CodelyTv\Shared\Domain\Bus\Query\QueryBus;
-use CodelyTv\Shared\Domain\Bus\Query\Response;
+use Garciasdos\Shared\Domain\Bus\Command\Command;
+use Garciasdos\Shared\Domain\Bus\Command\CommandBus;
+use Garciasdos\Shared\Domain\Bus\Query\Query;
+use Garciasdos\Shared\Domain\Bus\Query\QueryBus;
+use Garciasdos\Shared\Domain\Bus\Query\Response;
 use function Lambdish\Phunctional\each;
 
 abstract class ApiController

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Mooc\Shared\Infrastructure\Doctrine;
+namespace Garciasdos\Mooc\Shared\Infrastructure\Doctrine;
 
-use CodelyTv\Shared\Infrastructure\Doctrine\DoctrineEntityManagerFactory;
+use Garciasdos\Shared\Infrastructure\Doctrine\DoctrineEntityManagerFactory;
 use Doctrine\ORM\EntityManagerInterface;
 
 final class MoocEntityManagerFactory
@@ -16,8 +16,8 @@ final class MoocEntityManagerFactory
         $isDevMode = 'prod' !== $environment;
 
         $prefixes = array_merge(
-            DoctrinePrefixesSearcher::inPath(__DIR__ . '/../../../../Mooc', 'CodelyTv\Mooc'),
-            DoctrinePrefixesSearcher::inPath(__DIR__ . '/../../../../Backoffice', 'CodelyTv\Backoffice')
+            DoctrinePrefixesSearcher::inPath(__DIR__ . '/../../../../Mooc', 'Garciasdos\Mooc'),
+            DoctrinePrefixesSearcher::inPath(__DIR__ . '/../../../../Backoffice', 'Garciasdos\Backoffice')
         );
 
         $dbalCustomTypesClasses = DbalTypesSearcher::inPath(__DIR__ . '/../../../../Mooc', 'Mooc');

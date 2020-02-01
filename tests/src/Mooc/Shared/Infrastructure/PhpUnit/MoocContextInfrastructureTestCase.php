@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Shared\Infrastructure\PhpUnit;
+namespace Garciasdos\Tests\Mooc\Shared\Infrastructure\PhpUnit;
 
-use CodelyTv\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
+use Garciasdos\Tests\Shared\Infrastructure\PhpUnit\InfrastructureTestCase;
 use Doctrine\ORM\EntityManager;
 
 abstract class MoocContextInfrastructureTestCase extends InfrastructureTestCase

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Tests\Mooc\Courses\Infrastructure\Persistence;
+namespace Garciasdos\Tests\Mooc\Courses\Infrastructure\Persistence;
 
-use CodelyTv\Tests\Mooc\Courses\CoursesModuleInfrastructureTestCase;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseIdMother;
-use CodelyTv\Tests\Mooc\Courses\Domain\CourseMother;
+use Garciasdos\Tests\Mooc\Courses\CoursesModuleInfrastructureTestCase;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseIdMother;
+use Garciasdos\Tests\Mooc\Courses\Domain\CourseMother;
 
 final class CourseRepositoryTest extends CoursesModuleInfrastructureTestCase
 {

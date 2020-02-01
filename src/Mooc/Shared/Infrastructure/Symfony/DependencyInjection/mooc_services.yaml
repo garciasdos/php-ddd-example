@@ -14,7 +14,8 @@ services:
       - { name: codely.database_connection }
     public: true
 
-
   # Courses
-  CodelyTv\Mooc\Courses\Domain\CourseRepository: '@CodelyTv\Mooc\Courses\Infrastructure\Persistence\DoctrineCourseRepository'
+  Garciasdos\Mooc\Courses\Domain\CourseRepository: '@Garciasdos\Mooc\Courses\Infrastructure\Persistence\DoctrineCourseRepository'
+  Garciasdos\Shared\Domain\RandomNumberGenerator: '@Garciasdos\Tests\Shared\Infrastructure\PhpRandomNumberGenerator'
+
 

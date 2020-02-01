@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace CodelyTv\Shared\Infrastructure\Symfony;
+namespace Garciasdos\Shared\Infrastructure\Symfony;
 
-use CodelyTv\Shared\Domain\DomainError;
-use CodelyTv\Shared\Domain\Utils;
+use Garciasdos\Shared\Domain\DomainError;
+use Garciasdos\Shared\Domain\Utils;
 use Exception;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
